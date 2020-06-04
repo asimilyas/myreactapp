@@ -44,4 +44,4 @@ jobs:
           run: npm install -g surge
     
     - name: Deploy to surge
-          run: surge ./build asimilyas.surge.sh --token ${{ secrets.BOOTCAMP_SURGE_TOKEN}}
+          run: surge ./build asimilyas.surge.sh --token ${{ secrets.REACTAPP_SURGE_TOKEN}}
